@@ -1,1 +1,0 @@
-import{j as s,al as i}from"./iframe-B-hEVdgV.js";import{u as n}from"./useColors-Bqk5IObG.js";function t(o){const r=n();return s.jsx(i,{color:r.greyPrimary,...o})}t.__docgenInfo={description:"",methods:[],displayName:"Spinner"};export{t as S};
