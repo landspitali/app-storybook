@@ -1,0 +1,9 @@
+import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{r as n}from"./client-CWOoj4ER.js";import{M as r,c as i,t as a}from"./jsx-runtime-D3nZEPZm.js";import{n as o,t as s}from"./useColors-BPFFy23u.js";import{n as c,t as l}from"./Text-DTibF0Cq.js";import{a as u,t as d}from"./assets-CEGzIyTJ.js";function f({text:e,containerStyle:t}){return(0,p.jsxs)(r,{className:`rounded-lg p-2 mb-6 gap-x-2 items-center border border-solid border-black10  flex-row bg-backgroundBgSuccessSubtle`,style:t,children:[(0,p.jsx)(r,{children:(0,p.jsx)(u,{stroke:o().textInputGreen})}),(0,p.jsx)(l,{className:`text-base font-semibold text-textTextSuccess`,children:e})]})}var p,m=e((()=>{n(),i(),c(),s(),d(),p=a(),f.__docgenInfo={description:``,methods:[],displayName:`SuccessBanner`,props:{text:{required:!0,tsType:{name:`string`},description:``},containerStyle:{required:!1,tsType:{name:`union`,raw:`StyleProp<ViewStyle> | undefined`,elements:[{name:`StyleProp`,elements:[{name:`ViewStyle`}],raw:`StyleProp<ViewStyle>`},{name:`undefined`}]},description:``}}}})),h,g,_,v;e((()=>{m(),h={title:`Commons/Components/SuccessBanner`,component:f,tags:[`autodocs`]},g={args:{text:`Tímabókun staðfest`}},_={args:{text:`Þetta er mjög langur texti sem sýnir hvernig bannerinn hegðar sér með miklum texta`}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'Tímabókun staðfest'
+  }
+}`,...g.parameters?.docs?.source}}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'Þetta er mjög langur texti sem sýnir hvernig bannerinn hegðar sér með miklum texta'
+  }
+}`,..._.parameters?.docs?.source}}},v=[`Default`,`LongText`]}))();export{g as Default,_ as LongText,v as __namedExportsOrder,h as default};

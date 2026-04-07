@@ -48,36 +48,32 @@
     
     <link href="./sb-addons/common-manager-bundle.js" rel="modulepreload" />
       
-    
-    <script>
-      (function () {
-        function setFavicon(href) {
-          var link = document.querySelector("link[rel~='icon']");
-          if (!link) {
-            link = document.createElement('link');
-            link.rel = 'icon';
-            document.head.appendChild(link);
-          }
-          link.href = href;
+  
+  <script>
+    (function () {
+      function ensureFavicon(href) {
+        var link = document.querySelector("link[rel~='icon']");
+        if (!link) {
+          link = document.createElement("link");
+          link.rel = "icon";
+          document.head.appendChild(link);
         }
-        setFavicon('/favicon.ico');
-        window.addEventListener('load', function () { setFavicon('/favicon.png'); });
-      })();
-      (function () {
-        function setTitle(href) {
-          var link = document.querySelector("title");
-          if (!link) {
-            link = document.createElement('title');
-            link.rel = 'icon';
-            document.head.appendChild(link);
-          }
-          link.href = href;
-        }
-        setFavicon('/favicon.ico');
-        window.addEventListener('load', function () { setFavicon('/favicon.png'); });
-      })();
-    </script>
-   
+        link.href = href;
+      }
+
+      function setTitle(text) {
+        document.title = text;
+      }
+
+      ensureFavicon("/favicon.ico");
+      setTitle("Storybook");
+
+      window.addEventListener("load", function () {
+        ensureFavicon("/favicon.png");
+      });
+    })();
+  </script>
+ 
 
     <style>
       #storybook-root[hidden] {
