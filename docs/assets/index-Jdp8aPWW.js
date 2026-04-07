@@ -1,0 +1,1 @@
+const Y="IS",D="+354",_={DD_MM_YYYY:"DD.MM.YYYY",DD_MM_YYYY_HH_mm:"DD.MM.YYYY HH:mm",DD_MM_YYYY_HH_mm_ss:"DD.MM.YYYY HH:mm:ss",DD_MM_YYYY_DASH_HH_mm:"DD.MM.YYYY - HH:mm"};export{Y as D,_ as T,D as a};
